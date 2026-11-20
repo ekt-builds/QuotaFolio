@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — QuotaFolio</title>
+  <meta name="theme-color" content="#0C0D11" />
+  <style>
+    :root {
+      --bg: #0C0D11;
+      --card: #161821;
+      --elevated: #1E212D;
+      --mint: #2EE59D;
+      --cyan: #00D2FF;
+      --text: #F2F5FA;
+      --muted: #8B93A7;
+      --border: rgba(255, 255, 255, 0.08);
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, sans-serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--sans);
+      line-height: 1.65;
+      padding: 40px 20px 64px;
+    }
+    .wrap {
+      max-width: 780px;
+      margin: 0 auto;
+    }
+    .top-link {
+      display: inline-block;
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--cyan);
+      margin-bottom: 20px;
+      text-decoration: none;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 8px;
+    }
+    .meta {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--muted);
+      margin-bottom: 28px;
+    }
+    .box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    h2 {
+      font-size: 16px;
+      color: var(--mint);
+      margin-bottom: 8px;
+    }
+    p {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    p:last-child { margin-bottom: 0; }
+    code {
+      font-family: var(--mono);
+      font-size: 12px;
+      color: var(--text);
+      background: var(--elevated);
+      padding: 2px 6px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <a class="top-link" href="./index.html">‹ Back to QuotaFolio</a>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Effective Date: November 20, 2026 • App: QuotaFolio (Android)</div>
+
+    <div class="box">
+      <h2>1. Local-Only Data Storage</h2>
+      <p>QuotaFolio is designed as an offline-first Android application. Imported documents, reading schedules, session completion/skip logs, daily targets, and bookmark audit entries are stored locally on your device in Room SQLite (<code>quotafolio.db</code>) and internal app storage.</p>
+      <p>QuotaFolio does not require user accounts or upload your personal reading files to external servers.</p>
+    </div>
+
+    <div class="box">
+      <h2>2. Permissions & Device Features</h2>
+      <p>To deliver scheduled reading pop-ups and render documents offline, the app requests only device-level capabilities such as notifications, exact alarms, overlay pop-up display, and boot/time receivers so schedules remain accurate across restarts and timezone changes.</p>
+    </div>
+
+    <div class="box">
+      <h2>3. Data Control & Deletion</h2>
+      <p>You can permanently delete any imported file—along with its scheduled alarms, internal copy, and associated database history—using the two-step delete confirmation inside the app, or clear/uninstall the app from Android system settings.</p>
+    </div>
+
+    <div class="box">
+      <h2>4. Repository & Contact</h2>
+      <p>Project updates, release notes, and issue tracking are hosted at <code>github.com/ekt-builds/QuotaFolio</code>.</p>
+    </div>
+  </div>
+</body>
+</html>
